@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reed 基于miniflux的RSS应用
-date: 2019-08-15 11:13:30
+date: 2020-08-15 11:13:30
 tags: Flutter
 ---
 
