@@ -6,6 +6,8 @@ tags: NodeJS
 
 [nva](https://github.com/ali322/nva) 脚手架的桌面客户端,无任何环境依赖
 
+<!-- more -->
+
 ## 介绍
 
 nva-client 是可视化进行前端开发的桌面客户端
@@ -17,8 +19,6 @@ nva-client 是可视化进行前端开发的桌面客户端
 - npm镜像切换支持
 - 中英文语言国际化支持
 - 自动更新
-
-<!-- more -->
 
 ## 安装
 
@@ -32,7 +32,6 @@ nva-client 是可视化进行前端开发的桌面客户端
 
 - 初始化一个新项目
 
-![generate](/images/nva-client/generate.jpg)
 
 - 开发项目
 
