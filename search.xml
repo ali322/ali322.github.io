@@ -38,7 +38,10 @@
   <entry>
     <title>gitea + drone 搭建持续集成环境</title>
     <url>/2022/12/06/gitea/</url>
-    <content><![CDATA[<h2 id="安装-gitea"><a href="#安装-gitea" class="headerlink" title="安装 gitea"></a>安装 gitea</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wget -O gitea https://dl.gitea.io/gitea/1.17.1/gitea-1.17.1-linux-amd64</span><br><span class="line">chmod +x gitea</span><br><span class="line">./gitea web</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<p>Drone 是一个使用 Go 语言编写的自助式的持续集成平台，和 Gitea 一样可以完全基于容器部署，轻松扩展流水线规模。开发者只需要将持续集成过程通过简单的 YAML 语法写入 Gitea 仓库目录下的描述文件 .drone.yml 就可以完成 CI/CD 配置</p>
+<span id="more"></span>
+
+<h2 id="安装-gitea"><a href="#安装-gitea" class="headerlink" title="安装 gitea"></a>安装 gitea</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wget -O gitea https://dl.gitea.io/gitea/1.17.1/gitea-1.17.1-linux-amd64</span><br><span class="line">chmod +x gitea</span><br><span class="line">./gitea web</span><br></pre></td></tr></table></figure>
 
 <p>注意设置 webhook</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[webhook]</span><br><span class="line">ALLOWED_HOST_LIST = 10.1.1.1</span><br></pre></td></tr></table></figure>
